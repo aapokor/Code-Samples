@@ -1,7 +1,7 @@
 
 Code Samples
 ============
-This repository contains samples of code that I have authored. Please direct questions, comments, and concerns to me through [email](aapokorny27@gmail.com).
+This repository contains samples of code that I have authored. Please direct questions, comments, and concerns to me through [email](mailto:aapokorny27@gmail.com).
  As a young software developer, I often draw on my unique perspective as a pure math and computer science student
 to make valuable connections between theory and application. I also enjoy being
 versatile and flexible, and continued education and growth is really important
@@ -51,5 +51,5 @@ It begins by using a Naive-Bayes classifier to segment a color corrected image o
  Color data is also extracted. This data is then stored into an SQLite database.
   
  For more information on High-Throughput Phenotyping, the Bellwether Phenotyping Facility, color space standardization, and this 
- pipeline, I have included my speaking slides from the 11th annual Symposium on Biomathematics, Ecology, Education, and Research found [here](Apokorny_BEER_presentation.pptx).  
+ pipeline, I am happy to provide my speaking slides from the 11th annual Symposium on Biomathematics, Ecology, Education, and Research.  
  
