@@ -49,6 +49,8 @@ It begins by using a Naive-Bayes classifier to segment a color corrected image o
  noise within the image. Further minor clean up functions are applied to the mask, and the mask is them reapplied to the original
  RGB image for segmentation. Once the image is segmented, data such as "height," "length,", and "Convex hull area" are extracted. 
  Color data is also extracted. This data is then stored into an SQLite database.
+ 
+ This pipeline was designed in PlantCV V3.dev1.  
   
  For more information on High-Throughput Phenotyping, the Bellwether Phenotyping Facility, color space standardization, and this 
  pipeline, I am happy to provide my speaking slides from the 11th annual Symposium on Biomathematics, Ecology, Education, and Research.  
