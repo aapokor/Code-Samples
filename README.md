@@ -20,7 +20,7 @@ This subpackage is part of a larger software suite, [PlantCV: Computer Vision To
   
   For more information regarding the color space standardization method, please refer to our publication: [An automated, high-throughput method for standardizing image color profiles to improve image-based plant phenotyping](https://peerj.com/articles/5727/).
   
-  ####Citations
+####Citations
   
   * Berry JC, Fahlgren N, Pokorny AA, Bart RS, Veley KM. 2018. An automated, high-throughput method for standardizing image color profiles to improve image-based plant phenotyping. PeerJ 6:e5727. DOI: 10.7717/peerj.5727.
   
