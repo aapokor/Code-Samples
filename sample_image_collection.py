@@ -3,11 +3,12 @@ import sys
 import random
 import shutil
 
+
 def fill_array_from_csv(filename, name_param):
-	"""
-	This function takes a snapshot file name and a "name_param" - a filter to search file names by - and returns an
-	array  with lines from the snapshot file with the filter.
-	"""
+    """
+    This function takes a snapshot file name and a "name_param" - a filter to search file names by - and returns an
+    array  with lines from the snapshot file with the filter.
+    """
     line_array = []
     input_file = open(filename, 'r')
     header = input_file.readline()
@@ -18,20 +19,23 @@ def fill_array_from_csv(filename, name_param):
     input_file.close()
     return header, line_array
 
+
 def copytree_for_real(source_path, dest_path):
-	"""
-	This function copies a file at source_path and its contents to a new location at dest_path. 
-	"""
+    """
+    This function copies a file at source_path and its contents to a new location at dest_path.
+    """
     if not os.path.exists(dest_path):
         os.mkdir(dest_path)
     for root, dirs, files in os.walk(source_path):
         for file in files:
             shutil.copy(os.path.join(root, file), dest_path)
 
+
 def main():
-    input_dir  = sys.argv[1]
-    output_dir  = sys.argv[2]
-    output_csv  = sys.argv[3]
+    # Argument parser
+    input_dir = sys.argv[1]
+    output_dir = sys.argv[2]
+    output_csv = sys.argv[3]
     num_samples = int(sys.argv[4])
 
     # find input csv
@@ -57,8 +61,8 @@ def main():
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
 
-    #write new snapshot file with sample information
-	out_file = open(os.path.join(output_dir, output_csv), 'w')
+    # write new snapshot file with sample information
+    out_file = open(os.path.join(output_dir, output_csv), 'w')
     out_file.write(header)
     for element in sample_array:
         out_file.write(','.join(element))
@@ -67,5 +71,7 @@ def main():
         copytree_for_real(snap_path, dest_path)
 
     out_file.close()
+
+
 if __name__ == "__main__":
     main()
