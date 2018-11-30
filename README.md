@@ -2,6 +2,7 @@
 Code Samples
 ============
 Alexandria A. Pokorny
+
 [LinkedIn](https://www.linkedin.com/in/aapokor/)
 
 This repository contains samples of code that I have authored. Please direct questions, comments, and concerns to me through [email](mailto:aapokorny27@gmail.com).
