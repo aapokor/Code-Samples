@@ -1,9 +1,7 @@
 
 Code Samples
 ============
-Alexandria A. Pokorny
-
-[LinkedIn](https://www.linkedin.com/in/aapokor/)
+[Alexandria A. Pokorny](https://www.linkedin.com/in/aapokor/)
 
 This repository contains samples of code that I have authored. Please direct questions, comments, and concerns to me through [email](mailto:aapokorny27@gmail.com).
  As a young software developer, I often draw on my unique perspective as a pure math and computer science student
